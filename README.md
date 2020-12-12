@@ -141,3 +141,10 @@ $ vault lease renew -increment=300 <lease-id>
 $ vault lease revoke <lease-id>
 $ vault lease revoke -prefix aws/
 ```
+
+# OTHER COMMANDS
+$ vault audit enable
+
+$ vault -autocomplete-install
+
+$ vault kv -enable-versioning kv/
