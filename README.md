@@ -143,8 +143,10 @@ $ vault lease revoke -prefix aws/
 ```
 
 # OTHER COMMANDS
+```shell
 $ vault audit enable
 
 $ vault -autocomplete-install
 
 $ vault kv -enable-versioning kv/
+```
