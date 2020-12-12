@@ -117,6 +117,7 @@ $ vault token create -type batch -policy=operator
 # LOOKUP TOKEN 
 $ vault token lookup
 $ vault token lookup <token>
+$ vault token lookup -accessor <accessor-tokne>
 
 # CHECK TOKEN CAPABILITIES
 $ vault token capabilities secret/marvel
