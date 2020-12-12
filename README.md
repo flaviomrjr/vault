@@ -149,4 +149,6 @@ $ vault audit enable
 $ vault -autocomplete-install
 
 $ vault kv -enable-versioning kv/
+
+$ vault secrets list -format json
 ```
