@@ -75,13 +75,13 @@ $ vault kv get -version=1 secret/marvel
 $ vault kv delete -versions=1 secret/marvel
 
 # RESTORE SECRET VERSION
-$ vault kv undelete -versions=1 secret/mavrel
+$ vault kv undelete -versions=1 secret/marvel
 
 # DELETE SECRET VERSION PERMANENTLY
 $ vault kv destroy -versions=1 secret/marvel
 
 # DELETE SECRET
-$ vault kv matadate delete secret/mavel
+$ vault kv metadata delete secret/mavel
 ```
 
 # VAULT AUTH
@@ -120,8 +120,8 @@ $ vault token lookup <token>
 $ vault token lookup -accessor <accessor-token>
 
 # CHECK TOKEN CAPABILITIES
-$ vault token capabilities secrets/marvel
-$ vault token capabilities -accessor <accessor-token> secrets/marvel
+$ vault token capabilities secretsmarvel
+$ vault token capabilities -accessor <accessor-token> secret/marvel
 
 # RENEW TOKEN
 $ vault token renew -increment=200 <token>
