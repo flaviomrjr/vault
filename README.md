@@ -117,11 +117,11 @@ $ vault token create -type batch -policy=operator
 # LOOKUP TOKEN 
 $ vault token lookup
 $ vault token lookup <token>
-$ vault token lookup -accessor <accessor-tokne>
+$ vault token lookup -accessor <accessor-token>
 
 # CHECK TOKEN CAPABILITIES
-$ vault token capabilities secret/marvel
-$ vault token capabilities -accessor <accessor-token> secret/marvel
+$ vault token capabilities secrets/marvel
+$ vault token capabilities -accessor <accessor-token> secrets/marvel
 
 # RENEW TOKEN
 $ vault token renew -increment=200 <token>
