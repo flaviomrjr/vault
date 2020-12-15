@@ -81,7 +81,7 @@ $ vault kv undelete -versions=1 secret/marvel
 $ vault kv destroy -versions=1 secret/marvel
 
 # DELETE SECRET
-$ vault kv metadata delete secret/mavel
+$ vault kv metadata delete secret/marvel
 ```
 
 # VAULT AUTH
