@@ -120,7 +120,7 @@ $ vault token lookup <token>
 $ vault token lookup -accessor <accessor-token>
 
 # CHECK TOKEN CAPABILITIES
-$ vault token capabilities secretsmarvel
+$ vault token capabilities secret/marvel
 $ vault token capabilities -accessor <accessor-token> secret/marvel
 
 # RENEW TOKEN
